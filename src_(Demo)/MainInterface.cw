@@ -26,7 +26,7 @@ package  {
 	import GZ.Gpu.ShaderModel.GzModel.GzShModel_Quad.GzShModel_Quad;
 	import GZ.Gpu.ShaderModel.GzModel.GzShModel_Tiles.GzShModel_Tiles;
 	import GZ.Gpu.ShaderModel.GzModel.GzShModel_Raymarching;
-	import GZ.Gpu.ShaderModel.GzModel.GzShModel_Shadertoy.GzShModel_Shadertoy;
+	import GZ.Gpu.ShaderModel.GzModel.GzShModel_Raytracing.GzShModel_Raytracing;
 
 	
 	
@@ -113,9 +113,9 @@ package  {
 		override public function fLoadShader():Bool {
 			//oGzShModel = new GzShModel_Tiles();
 		//	oGzShModel = new GzShModel_Quad();
-			oGzShModel = new GzShModel_Shadertoy();
+			oGzShModel = new GzShModel_Raytracing();
 			//oGzShModel = new GzShModel_Minimal();
-			//oGzShModel = new GzShModel_Shadertoy();
+			//oGzShModel = new GzShModel_Raytracing();
 			return true;
 		}
 		
