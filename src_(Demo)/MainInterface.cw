@@ -62,6 +62,7 @@ package  {
 		use Window.eWinBorder;
 		
 		public var oDemo : Clip;
+		public var oTest : Clip;
 		//public var aDemoArrow : Array<DemoArrow>;
 		public	var oImg : Img;
 							//oLigthObj = new LigthObj();
@@ -147,10 +148,12 @@ package  {
 				aDemoArrow[i] = oDemo;
 			}
 			*/
-
-		oDemo = new Scene(this);
+			
 		oLigthObj = new LigthObj();
-					
+
+
+		oTest = new DemoText(this);
+				oDemo = new Scene(this);			
 		//		Debug.fTrace1("---FpsCount");
 		//	oFps = new FpsCount(this, oItf.nFrameWidth - 150, 30);
 			

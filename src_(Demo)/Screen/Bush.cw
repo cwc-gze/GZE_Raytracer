@@ -22,7 +22,7 @@ package  {
 	//	public var oBush : Light;
 		//public var nIndex : UInt;
 
-		public var nSize : Float = 2.7;
+		public var nSize : Float = 1.7;
 				
 		public function Bush():Void {
 			Clip(parent, 0 , 0);
