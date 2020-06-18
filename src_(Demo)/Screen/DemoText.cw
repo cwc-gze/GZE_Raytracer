@@ -73,11 +73,10 @@ package  {
 				_oFont.fGpuLoad();
 			}
 			
-			oImg = new Img(this, 100.0, 100.0, _oFont, true);
-
 			
-			oImg.vColor.nRed = 1.0;
-			Debug.fTrace("--Finish-");
+		///	oImg = new Img(this, 100.0, 100.0, _oFont, true);
+		//	oImg.vColor.nRed = 1.0;
+		//	Debug.fTrace("--Finish-");
 
 				
 		
